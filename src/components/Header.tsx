@@ -95,10 +95,10 @@ const Header: React.FC<{ darkMode: boolean; toggleDarkMode: () => void }> = ({ d
         {/* Mobile Navigation Menu */}
         <div
           className={`md:hidden absolute top-full left-0 right-0 bg-white dark:bg-gray-900 shadow-lg transition-all duration-300 ${
-            isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 invisible'
+            isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0 invisible'
           } overflow-hidden`}
         >
-          <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
+          <div className="container mx-auto px-4 py-6 flex flex-col space-y-4">
             {navItems.map((item) => (
               <a
                 key={item.name}
@@ -107,7 +107,7 @@ const Header: React.FC<{ darkMode: boolean; toggleDarkMode: () => void }> = ({ d
                   e.preventDefault();
                   handleNavClick(item.href);
                 }}
-                className="text-base font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 py-2"
+                className="text-base font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 py-3 rounded-lg px-2 active:bg-blue-50 dark:active:bg-gray-800"
               >
                 {item.name}
               </a>
@@ -117,11 +117,11 @@ const Header: React.FC<{ darkMode: boolean; toggleDarkMode: () => void }> = ({ d
               download 
               variant="primary" 
               icon={Download}
-              className="mt-4"
+              className="mt-2 w-full"
             >
               Download Resume
             </Button>
-            <div className="mt-2">
+            <div className="mt-2 flex justify-center">
               <ThemeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
             </div>
           </div>
