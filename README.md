@@ -5,7 +5,7 @@ Welcome to my professional portfolio! This website showcases my journey, skills,
 ## 🚀 Live Demo
 
 [View My Portfolio](https://portfolio-website-omega-five-51.vercel.app/)  
-*(Replace with your actual deployed link)*
+
 
 ---
 
@@ -42,7 +42,7 @@ This portfolio is designed to present my technical expertise, personal growth, a
 ## 📸 Screenshots
 
 ![Portfolio Screenshot](public/screenshot.png)  
-*Homepage of my portfolio website*
+
 
 ---
 
