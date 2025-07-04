@@ -26,7 +26,7 @@ export const personalInfo = {
   ],
   resume: {
     label: "Resume",
-    url: "/VineethPrasadM-RESUME (6).pdf",
+    url: "/resume.pdf",
   },
 };
 
