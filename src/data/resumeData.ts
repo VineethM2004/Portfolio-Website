@@ -46,7 +46,7 @@ export const skills = {
   categories: [
     {
       name: "Languages",
-      skills: ["C", "Python", "JavaScript", "Java", "XML", "HTML", "CSS"],
+      skills: ["C", "Python", "JavaScript", "XML", "HTML", "CSS"],
     },
     {
       name: "Web Frameworks",
@@ -74,14 +74,25 @@ export const experience = {
       title: "Full Stack Developer Intern",
       company: "Pacific Park Management, Inc",
       location: "Remote",
-      period: "March 2025 – Present",
+      period: "April 2025 – Present",
       description: "Currently working as a Full Stack Developer Intern, helping in building a web platform to track company finances and internal operations.",
       responsibilities: [
         "Developing dynamic and responsive front-end interfaces using React.js, ensuring seamless functionality and user experience.",
         "Using MongoDB to securely store user authentication details and confidential company data, integrating it with a full MERN stack backend.",
-        "Collaborating directly with the CEO and other team members, following Git-based workflows for efficient code management and project updates.",
+        "Collaborating with cross-functional team members and stakeholders, following Git-based workflows for efficient code management and project updates."
       ],
-      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "MERN Stack"],
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "MERN Stack",
+        "Cloudinary",
+        "JWT Auth",
+        "RESTful API",
+        "Git",
+        "Agile Workflow"
+      ],
     },
   ],
 };
@@ -90,20 +101,104 @@ export const projects = {
   title: "Projects",
   list: [
     {
-      title: "Event-Planner",
-      description: "Designed and developed an Event Planner web application using the MERN stack (MongoDB, Express.js, React.js, Node.js) to allow users to create, manage, and track events efficiently. Deployed the application on Vercel, ensuring a responsive design, real-time updates, and an intuitive user interface for enhanced user engagement.",
-      technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Vercel"],
-      link: "https://event-planner-liart.vercel.app/",
-      source: "https://github.com/VineethM2004/Event-Planner-.git",
-      demo: "https://event-planner-liart.vercel.app/",
-      image: "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg",
+      title: "ScholarAI — Intelligent Education Matching Platform",
+      summary: "AI-powered platform that matches students to universities and scholarships with personalized recommendations and streamlined application tracking.",
+      details: [
+        "AI-powered matching algorithm considers GPA, test scores, budget, and preferences",
+        "Personalized university and scholarship recommendations with detailed explanations",
+        "Visual dashboard for tracking application progress and deadlines",
+        "Save, compare, and bookmark favorite opportunities for easy decision-making",
+        "Secure JWT-based authentication and profile management",
+        "Modern, responsive UI with smooth animations (Framer Motion, GSAP)",
+        "Built with React 18, TypeScript, Node.js, Express.js, and MongoDB"
+      ],
+      description:
+        "Scholar AI is a comprehensive web application that revolutionizes how students discover and apply to universities and scholarships. Leveraging advanced AI algorithms, the platform analyzes student profiles to provide highly personalized recommendations, making the college application process more accessible, efficient, and successful. Key features include a smart matching algorithm (100-point scoring system), real-time filtering and detailed recommendations, a visual application tracking dashboard with analytics and reminders, a save & compare system for favorites, and secure JWT-based user management. The tech stack includes React 18, TypeScript, Tailwind CSS, Framer Motion, GSAP, React Router, Recharts, Node.js, Express.js, MongoDB (Mongoose), JWT Auth, bcryptjs, and Cloudinary. Scholar AI streamlines the journey from discovery to application, delivering a modern, intuitive user experience and increasing access to global education opportunities.",
+      technologies: [
+        "React 18",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "GSAP",
+        "React Router",
+        "Recharts",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT Auth",
+        "bcryptjs",
+        "Cloudinary"
+      ],
+      demo: "https://scholar-ai.netlify.app",
+      image: "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=800&q=80"
     },
     {
-      title: "Chat-Application",
-      description: "Built a real-time Chat Application using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Tailwind CSS for responsive and modern UI design. Implemented features like user authentication and real-time messaging with seamless frontend-backend communication. Optimized user experience with a clean, fast, and mobile-friendly interface, ensuring smooth interaction across devices.",
-      technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
-      link: "https://github.com/VineethM2004/Chat-Application",
-      image: "https://images.pexels.com/photos/4126743/pexels-photo-4126743.jpeg",
+      title: "EcoRoute — Sustainable Transportation Platform",
+      summary: "Comprehensive web app for eco-friendly route planning, carbon tracking, and gamified sustainability goals.",
+      details: [
+        "Real-time route planning with interactive maps (Leaflet.js)",
+        "Multi-modal support: driving, cycling, walking with CO₂ emission calculations",
+        "Comprehensive dashboard for carbon footprint analytics and progress tracking",
+        "Personalized eco-goals and gamified achievement system",
+        "Secure JWT authentication and user profile management",
+        "Modern, responsive UI with smooth GSAP animations",
+        "Built with React 18, TypeScript, Node.js, Express.js, and MongoDB"
+      ],
+      description:
+        "EcoRoute is a comprehensive web application designed to promote sustainable transportation by optimizing routes for minimal environmental impact. The platform empowers users to plan eco-friendly journeys, track their carbon footprint, and achieve personalized sustainability goals through a gamified, data-driven dashboard. Key features include real-time route planning with interactive maps (Leaflet.js), multi-modal support (driving, cycling, walking) with CO₂ emission calculations, cost and health benefits tracking, and a comprehensive dashboard for carbon footprint analytics. Users can set personalized eco-goals, monitor progress, and celebrate achievements with a gamified system. The platform offers secure JWT authentication, responsive design, and real-time updates, making sustainable travel easy and engaging. Tech stack: React 18, TypeScript, Vite, Tailwind CSS, Shadcn/ui, Leaflet.js, Recharts, GSAP, Node.js, Express.js, MongoDB, JWT Auth, Cloudinary, OpenRouteService API.",
+      technologies: [
+        "React 18",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Shadcn/ui",
+        "React Router",
+        "TanStack Query",
+        "Leaflet.js",
+        "Recharts",
+        "GSAP",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT Auth",
+        "Cloudinary",
+        "OpenRouteService API"
+      ],
+      demo: "https://eco-routes.netlify.app",
+      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Task Management System — A Full-Stack MERN Application",
+      summary: "A comprehensive MERN stack app for creating, organizing, and tracking tasks with secure authentication and real-time management.",
+      details: [
+        "Secure user registration, login, and JWT authentication",
+        "Create, read, update, delete, and archive tasks with real-time filtering",
+        "Modern, responsive UI with gradient backgrounds and mobile-first design",
+        "User avatar upload and profile management",
+        "Bulk task operations and status management (completed/incomplete)",
+        "RESTful API architecture with comprehensive error handling",
+        "Built with React.js, Node.js, Express.js, MongoDB, Bootstrap, and Cloudinary"
+      ],
+      description: "A comprehensive task management application built with the MERN stack that allows users to create, organize, and track their tasks efficiently. The application features a modern, responsive design with secure user authentication and real-time task management capabilities.",
+      technologies: [
+        "React.js 19.0.0",
+        "React Router DOM 7.2.0",
+        "Bootstrap 5.3.3",
+        "React Bootstrap 2.10.9",
+        "Axios 1.8.1",
+        "React Hot Toast 2.5.2",
+        "React Icons 5.5.0",
+        "Node.js",
+        "Express.js 4.21.2",
+        "MongoDB",
+        "Mongoose 8.11.0",
+        "JWT Auth",
+        "bcrypt 5.1.1",
+        "Cloudinary 2.5.1",
+        "Express FileUpload 1.5.1"
+      ],
+      demo: "https://github.com/VineethM2004/Task-Manager",
+      image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
     },
   ],
 };
@@ -132,8 +227,9 @@ export const education = {
       institution: "Vidya Vardhaka College of Engineering",
       location: "Mysore, Karnataka",
       period: "2022 - present",
-      description: "Currently pursuing Information Science Bachelor of Technology. CGPA: 8.77",
-      courses: ["Data Structures & Algorithms", "Database Management", "Web Technologies", "Cloud Computing"],
+      description: "Currently pursuing Information Science Bachelor of Technology.",
+      cgpa:"8.75",
+      courses: ["Data Structures & Algorithms", "Database Management", "Web Technologies"],
     },
   ],
 };
@@ -167,6 +263,15 @@ export const certifications = {
       issuer: "IBM (via Coursera)",
       date: "Sep 15, 2024",
       link: "https://coursera.org/verify/8566T55ORA1V",
+      icon: Code,
+    },
+    {
+      name: "Finlatics Machine Learning Program",
+      issuer: "Finlatics",
+      date: "04-11-2024 to 28-01-2025",
+      description: "This is to certify that Vineeth Prasad M has successfully gained proficiency in Machine Learning during the Finlatics Machine Learning program. The duration of the program was from 04-11-2024 to 28-01-2025.",
+      link: "/finlatics.pdf",
+      lor: "/finlatics lor.pdf",
       icon: Code,
     },
   ],

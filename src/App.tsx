@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import About from './components/About';
-import Timeline from './components/Timeline';
+import Journey from './components/Timeline';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -39,7 +39,7 @@ function App() {
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 pb-24">
         <About />
-        <Timeline />
+        <Journey />
         <Skills />
         <Experience />
         <Projects />
